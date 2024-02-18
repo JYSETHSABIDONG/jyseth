@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top 
+                    }, 800, function(){
+                        window.location.hash = hash;
+                 });
+                }
+             });
+            });
+    </script>
+
+</head>
+<body>
+
+    <div class="banner" id="home">
+
+        <div class="navbar">
+            <div class="logo"> Flower Shop Website </div>
+            <ul>
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#news"> NEWS </a></li>
+                <li><a href="#about"> ABOUT US </a></li>
+                <li><a href="#gallery"> GALLERY </a></li>
+                <li><a href="#testimony"> TESTIMONY </a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1> The Stylish Succulent </h1>
+            <p> For more videos please subscribe to our channel. </p>
+
+            <div class="button">
+                <button type="button"><span></span> READ MORE </button>
+                <button type="button"><span></span> WATCH MORE </button>
+    
+            </div>
+            
+        </div>
+
+        
+
+
+    </div>
+
+        <!--this ends of home page-->
+
+
+       
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>News Page</title>
+            <link rel="stylesheet" href="news_style.css">
+        
+            <style>
+        
+            </style>
+        
+        </head>
+        <body>
+            
+            <div class="blog-section"> 
+                
+                 <div class="section-content" id="news">
+                    
+                    <div class="title">
+                        <h2> A New Day </h2>
+                        <p>The flower of love </p>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            
+                            <div class="image-section">
+                            <img src="img/rose.jpg">
+                        
+                    </div>
+                    
+                    <div class="article">
+                        <h4> Red Rose </h4>
+                        <p> Love, Passion and Admiration.</br></br>
+        
+                            Red roses are given when people express their love.
+                            It has always been a symbol of love. It is also most commonly given on Valentine's Day.
+                            This red rose is a very beautiful and fragrant flower, which is generally very easy to see. 
+                            This flower is mainly used by two lovers, in which the lover shows his love by giving a red rose flower to his girlfriend.</p>
+                        </div>
+                        
+                        <div class="blog-view">
+                            <a href="" class="button"> Read More </a>
+                        </div>
+                        
+                        <div class="posted-date">
+                            <p>Date Posted: July 03, 2023</p>
+                        </div>
+                    </div>
+        
+                <div class="card">
+        
+                    <div class="image-section">
+                    <img src="img/carnation.jpg">
+                    </div>      
+                    
+                    <div class="article">
+                        <h4> Pink Carnation </h4>
+                        <p>    Devotion, Love and Gratitude  </br></br>
+                            
+                                The pink carnation is frequently offered as a token of sincere thanks to express 'thank you' and 'I won't forget you'.
+                                Carnations in a soft pink color stand for the affection and appreciation of a mother. 
+                                On a first date, though, dark pink carnations are customarily given as a token of affection and to communicate feelings of blossoming love.</p>
+                        </div>
+                        
+                        
+                        <div class="blog-view">
+                            <a href="" class="button"> Read More </a>
+                        </div>
+        
+                        <div class="posted-date">
+                            <p>Date Posted: July 03, 2023</p>
+                        </div>            
+                    </div>
+                    
+                    <div class="card">
+                        
+                        <div class="image-section">
+                            <img src="img/Daisy.webp">
+                        </div>
+                    
+                        <div class="article">
+                            <h4> Daisy </h4>
+                            <p> New Beginnings and Rebirth, in addition to Love, Cheerfulness, Beauty, Purity, Innocence, Hope, Fun, and Affection. </br></br>
+                                Even just looking at a daisy can fill you with a simple, positive vibe.
+                                They seem so happy with their sun-like center surrounded by delicate white petals – it 
+                                almost looks a bit like a bright sun beaming through a cloud.</p>
+                            </div>
+                            
+                            <div class="blog-view">
+                                <a href="" class="button"> Read More </a>
+                            </div>
+        
+                            <div class="posted-date">
+                                <p>Date Posted: July 03, 2023</p>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+            
+         </body>
+          </html>
+
+    <!--this ends the news page-->
+
+    <div class="about-section" id="about">
+
+        <div class="heading">
+            <h1> About US </h1>
+            <p> Flower are a divine creation.. </p>
+        </div>
+
+       <div class="container">
+        <section class="about">
+                <div class="about-image">
+                    <img src="img/PINK.jpg">
+                </div>
+
+                <div class="about-content">
+                    <h2> FLOWER! </h2>
+                    <p> Flower are one's of life's simplest pleasures, representing beauty in its 
+                        purest, most flower form. There's nothing like a vase of flower to add 
+                        a pop of color to your living room, myriad colors in a field of wildflowers,
+                        or the spent of a fragrant bouquet. Her smile didn't mean her suffering was over, 
+                        but when it appeared it was something beautiful to see; a rare flower. Globe in hand, 
+                        Grace slowly approached the big orchid, white and fragile and absolutely gorgeous.
+                    </p>
+
+                        <a href="#" class="read-more"> Read More</a>
+                </div>
+
+        </section>
+       </div>
+
+    </div>
+
+    <!--Gallery Page-->
+    <div class="gallery" id="gallery">
+
+        <input type="radio" name="photos" id="check1" checked>
+        <input type="radio" name="photos" id="check2">
+        <input type="radio" name="photos" id="check3">
+        <input type="radio" name="photos" id="check4">
+
+        <div class="gallery-container">
+            <h1>PHOTO GALLERY</h1>
+            <div class="top-content">
+                <h3>Photo Gallery</h3>
+                <label for="check1">All Photos</label>
+                <label for="check2"> Event Flower Photos</label>
+                <label for="check3">Bonding Flower Photos</label>
+                <label for="check4">Outing Flower Photos</label>
+            </div>
+
+            <div class="photo-gallery">
+                
+                <div class="pic Events">
+                    <img src="img/events1.jfif">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/bon1.jfif">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/out1.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/Event2.jfif">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/bon2.jfif">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/out2.jfif">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/events3.jfif">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/bon3.jfif">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/out3.jfif">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/events4.jfif">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/bon4.jfif">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/out4.jfif">
+                </div>
+                
+            </div>
+        </div>
+
+        <!--testimonial-->
+
+        <div class="blog-section" id="testimony">
+        
+            <div class="section-content">
+                
+                <div class="title">
+                    <h2> TESTIMONIALS</h2>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        
+                        <div class="image-section">
+                        <img src="img/flor.jpg">
+                    
+                </div>
+                
+                <div class="article">
+                    <h4> Floriden Almirante</h4>
+                    <p> The only reward of virtue is virtue; the only way to have a friend is to be one.</br></br>
+    
+                        In the sweetness of friendship let there be laughter, for in the dew of little things the heart
+                         finds its morning and is refreshed. </p>
+                    </div>
+                    
+                    <div class="blog-view">
+                        <a href="" class="button"> Read More </a>
+                    </div>
+                    
+                </div>
+    
+            <div class="card">
+    
+                <div class="image-section">
+                <img src="img/janin.jpg">
+                </div>      
+                
+                <div class="article">
+                    <h4> Janin Rose Sardua</h4>
+                    <p> A faithful friend loves to the end.</br></br>
+
+                        Friendship is the hardest thing in the world to explain.
+                        It’s not something you learn in school. But if you haven’t learned the 
+                        meaning of friendship, you really haven’t learned anything.”
+                       
+                        </p>
+                    </div>
+                    
+                    
+                    <div class="blog-view">
+                        <a href="" class="button"> Read More </a>
+                    </div>
+               
+                </div>
+                
+                <div class="card">
+                    
+                    <div class="image-section">
+                        <img src="img/ann.jpg">
+                    </div>
+                
+                    <div class="article">
+                        <h4> Anniefe Sabidong </h4>
+                        <p>Having a sister is like having a best friend you can’t get rid of. 
+                            You know whatever you do, they’ll still be there.”  </br></br>
+                            We’ll always fight, but we'll always make up as well. 
+                            That's what sisters do: we argue, we point out each other’s frailties, mistakes, 
+                            and bad judgment, we flash the insecurities we've had since childhood, and then
+                            we come back together. Until the next time.”
+                            </p>
+                        </div>
+                        
+                        <div class="blog-view">
+                            <a href="" class="button"> Read More </a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+        <!--footer-->
+        <div class="footer-basic">
+            <footer>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook-official"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+                <p class="copyright">Managed by and Created by Jyseth @ 2023</p>
+            </footer>
+        </div>
+
+        <a href="#home" id="myBtn" title="Go to top">TOP</a>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                mybutton.style.display="block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        </script>
+
+</body>
+</html>
